@@ -3,6 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/*
+
+[script di inseguimento]
+
+script che insegue il giocatore ( o qualsiasi altro gameobject )
+se raggiunge il giocatore/gameobject l'agente si ferma.
+
+se il giocatore/gameobject si muove di nuovo l'agente insegue nuovamente
+il giocatore/gameobject
+
+*/
+
 public class agent : MonoBehaviour {
 
     public Transform target;

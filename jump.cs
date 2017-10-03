@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//script per creare un bouncer (tipo sonic the hedgehog)
+
+
 public class jump : MonoBehaviour {
 
     public Rigidbody rigid;
